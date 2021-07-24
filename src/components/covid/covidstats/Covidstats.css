@@ -1,0 +1,17 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.home-statCards {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    background-color: #b8b4b45e;
+}

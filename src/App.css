@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+}
+
+.App{
+  justify-content: space-evenly;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+@media (max-width: 1024px){
+  .App{
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
