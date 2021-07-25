@@ -71,7 +71,7 @@ function Covidstats(props) {
       {/*-----------------------------------------------------------------------------------*/}
 
       <div className="home-statCards">
-        <StatCard onClick={(event) => setClassType(COVID_DATA_CLASS_TYPE.CASES)} title="Today's Coronavirus Cases" cases={stats.todayCases} total={`${stats.cases} Total`} />
+        <StatCard onClick={(event) => setClassType(COVID_DATA_CLASS_TYPE.CASES)} title="Today's Cases" cases={stats.todayCases} total={`${stats.cases} Total`} />
         <StatCard onClick={(event) => setClassType(COVID_DATA_CLASS_TYPE.RECOVERED)} title="Today's Recovered" cases={stats.todayRecovered} total={`${stats.recovered} Total`} />
         <StatCard onClick={(event) => setClassType(COVID_DATA_CLASS_TYPE.DEATHS)} title="Today's Deaths" cases={stats.todayDeaths} total={`${stats.deaths} Total`} />
       </div>
