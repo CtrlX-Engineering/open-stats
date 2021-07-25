@@ -1,2 +1,35 @@
-.app-statCard{
+.app-statCard {
+  flex: 1;
+  border-radius: 20px;
+  border: #070002;
+}
+
+.app-statCard:not(:last-child) {
+  margin-right: 10px;
+}
+
+.app-statCard--selected {
+  border-top: 10px solid greenyellow;
+}
+
+.app-statCard--red {
+  border-color: red;
+}
+
+.statCard-cases--green {
+  color: lightgreen !important;
+}
+
+.statCard-cases {
+  color: #070002;
+  font-weight: 900;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.statCard-total {
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  margin-top: 15px !important;
 }
