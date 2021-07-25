@@ -13,5 +13,19 @@
 }
 
 body {
-    background-color: #b8b4b45e;
+    background-color: #f1bc4a5e;
+    margin-bottom: 20px;
+}
+
+.home-statChart{
+    margin-top: 40px;
+}
+
+.home-statMap {
+    margin-top: 40px;
+}
+
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 500%;
 }
