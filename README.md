@@ -3,7 +3,7 @@ This is the Open-Source project By CtrlX to capture the real time stats from var
 <br>
 The live site can be viewed in : http://openstats.ctrlxengineering.com
 
-# Getting Started with covid19_Tracker by CrlX-OpenStats
+# Getting Started with Open-Stats by CrlX
 
 Clone the repository
 
